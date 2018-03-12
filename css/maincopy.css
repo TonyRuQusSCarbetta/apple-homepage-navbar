@@ -1,0 +1,85 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: lightgrey;
+  width: 1265px;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Karla', sans-serif; */
+  /* font-family: 'Lato', sans-serif; */
+}
+
+#navbar {
+  height: 44px;
+  position: relative;
+  /* width: 1265; */
+  width: 100%;
+}
+
+
+nav {
+  display:inline;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(34, 42, 33);
+  height: 44px;
+  letter-spacing: 5px;
+  font-size: 17px;
+  line-height: 25px;
+
+}
+
+.navListBox {
+  text-align: center;
+  margin: 0 auto;
+  width: 1000px;
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+}
+
+ul {
+  color: rgb(255, 255, 255);
+  display: inline;
+}
+
+li {
+  color: rgb(255, 255, 255);
+  display: inline;
+  letter-spacing: .14px;
+  padding: 0% 20px;
+}
+
+li:hover {
+  color: lightgrey;
+}
+
+/* FONT AWESOME CLASSES */
+.fa-apple {
+  color: rgb(255, 255, 255);
+}
+
+.fa-apple:hover {
+  color: lightgrey;
+}
+
+.fa-search {
+  color: rgb(255, 255, 255);
+}
+
+.fa-search:hover {
+  color: lightgrey;
+}
+
+.fa-shopping-bag {
+  color: rgb(255, 255, 255);
+  padding: 0% 20px;
+}
+
+.fa-shopping-bag:hover {
+  color: lightgrey;
+}
