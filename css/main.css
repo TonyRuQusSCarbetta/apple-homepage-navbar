@@ -85,3 +85,46 @@ img {
     padding-top: 14%;
   }
 }
+
+
+@media only screen and (max-width: 826px) {
+  img.iphone-pic {
+    width: 80%;
+    margin-right: 10%;
+}
+.iphone-text {
+  margin-right: 40%;
+padding-top: 18%;
+width: 25%;
+}
+}
+
+@media only screen and (max-width: 647px) {
+      nav {
+        height: 112px;
+      }
+      .iphone-text {
+        padding-top: 35%;
+      }
+}
+
+@media only screen and (max-width: 500px) {
+    .iphone-text {
+      padding-top: 45%;
+    }
+}
+
+@media only screen and (max-width: 472px) {
+  nav {
+    height: 149px;
+  }
+  .iphone-text {
+    padding-top: 55%;
+}
+}
+
+@media only screen and (max-width: 320px) {
+  .iphone-text {
+      padding-top: 60%;
+  }
+}
